@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("bgimg9.png");
+    text-align: center;
+    animation: bgtrans 5s linear infinite;
+}
+.cs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.container {
+    width: 300px;
+    padding: 30px;
+    background-color: #7DF9FF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(24, 23, 23, 1);
+    border: 1.5px solid black;
+}
+.lform {
+    text-align: left;
+}
+
+.llabel {
+    display: block;
+    margin-top: 10px;
+}
+
+.linput {
+    width: 100%;
+    padding: 10px;
+    margin: 10px -10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.lbutton {
+    width: 100%;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.lbutton:hover{
+    transform: scale(110%);
+    background-color: #28522a;
+}
+
+@keyframes bgtrans{
+    100%{
+      filter: hue-rotate(360deg);
+    }
+  }
